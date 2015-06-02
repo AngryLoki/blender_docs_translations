@@ -1,0 +1,204 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender Reference Manual 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-02 16:02+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ..\..\manual\getting_started\basics\interface\scenes.rst:4
+msgid "Scenes"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\scenes.rst:6
+msgid ""
+"Scenes are a very useful tool for managing your projects. The Cube model in "
+"empty space you see when you open Blender for the first time is the default "
+"scene. You can imagine scenes to be similar to tabs in your web browser. For"
+" example, your web browser can have many tabs open at once. The tabs could "
+"be empty, showing identical views of the same web page, showing different "
+"views of the same page or show entirely different pages altogether. "
+"Blender's scenes work in much the same way. You can have an empty scene, a "
+"complete independent copy of your scene or a new copy that links to your "
+"original scene in a number of ways."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\scenes.rst:16
+msgid ""
+"You can select and create scenes with the *Scene selector* in the Info "
+"window header (the bar at the top of most Blender layouts, see *Screen and "
+"Scene selectors*)."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\scenes.rst:23
+msgid "Screen and Scene selectors"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\scenes.rst:27
+msgid "Scene configuration"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\scenes.rst:30
+msgid "Adding a new Scene"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\scenes.rst:35
+msgid "Add Scene menu"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\scenes.rst:39
+msgid ""
+"You can add a new scene by clicking the *Add* button (|addview-button|) in "
+"the scene selector option. When you create a new scene, you can choose "
+"between a number of options to control its contents."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\scenes.rst:42
+msgid ""
+"To choose between these options, it's useful to understand the difference "
+"between *Objects* and *Object Data*. See :doc:`Duplication "
+"</modeling/objects/duplication/introduction>`."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\scenes.rst:46
+msgid ""
+"The choices for adding a scene, therefore determine just how much of this "
+"information will be *copied from* the active scene to the new one, and how "
+"much will be *shared* (linked)."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\scenes.rst:50
+msgid "New"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\scenes.rst:50
+msgid "Creates an empty scene with default values."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\scenes.rst:54
+msgid "Copy Settings"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\scenes.rst:53
+msgid ""
+"Creates an empty scene but also copies the settings from the active scene "
+"into the new one."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\scenes.rst:62
+#: ..\..\manual\getting_started\basics\interface\scenes.rst:97
+msgid "Link Objects"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\scenes.rst:57
+msgid ""
+"This option creates a new scene with the same settings and contents as the "
+"active scene. However, instead of copying the objects, the new scene "
+"contains links to the objects in the old scene. Therefore, changes to "
+"objects in the new scene will result in the same changes to the original "
+"scene, because the objects used are literally the same. The reverse is also "
+"true."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\scenes.rst:76
+#: ..\..\manual\getting_started\basics\interface\scenes.rst:104
+msgid "Link Object Data"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\scenes.rst:65
+msgid ""
+"Creates new, duplicate copies of all of the objects in the currently "
+"selected scene, but each one of those duplicate objects will have *links to*"
+" the object-data (meshes, materials and so on) of the corresponding objects "
+"in the original scene."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\scenes.rst:69
+msgid ""
+"This means that you can change the position, orientation and size of the "
+"objects in the new scene without affecting other scenes, but any "
+"modifications to the object-data (meshes, materials *etc*) will also affect "
+"other scenes. This is because a *single instance of* the \"object-data\" is "
+"now being shared by all of the objects in all of the scenes that link to it."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\scenes.rst:75
+msgid ""
+"More information at the :doc:`Window Type </editors/index>` page. This has "
+"the effect of making a new independent copy of the object-data."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\scenes.rst:81
+#: ..\..\manual\getting_started\basics\interface\scenes.rst:107
+msgid "Full Copy"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\scenes.rst:79
+msgid ""
+"Using this option, nothing is shared. This option creates a fully "
+"independent scene with copies of the active scenes contents. Every object in"
+" the original scene is duplicated, and a duplicate, private copy of its "
+"object-data is made as well."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\scenes.rst:83
+msgid ""
+"To better understand the way Blender works with data, read through "
+":doc:`Blender's Library and Data System. </data_system/index>`"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\scenes.rst:87
+msgid "A Brief Example"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\scenes.rst:89
+msgid ""
+"Consider a bar scene in a film. You initially create the bar as a clean "
+"version, with everything unbroken and in its proper place. You then decide "
+"to create the action in a separate scene. The action in your scene will "
+"indicate which type of linking (if any) would suit your scene best."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\scenes.rst:96
+msgid ""
+"Every object will be linked to the original scene. If you correct the "
+"placement of a wall, it will move in every scene that uses the bar as a "
+"setting."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\scenes.rst:100
+msgid ""
+"Will be useful when the positions of objects need to change, but their shape"
+" and material settings will remain constant. For example, chairs might stand"
+" on the floor in the \"crowded bar\" scene and up on the tables in the \"we "
+"are closing\" scene. Since the chairs don't change form, there is no need to"
+" waste memory on exact mesh-copies."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\scenes.rst:107
+msgid ""
+"A glass shattering on the floor will need its own copy because the mesh will"
+" change shape."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\scenes.rst:109
+msgid ""
+"It is not possible to do all of the above in the same scene, but it might "
+"help in understanding why you would link different objects in different "
+"ways."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\scenes.rst:114
+msgid "Deleting a Scene"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\scenes.rst:118
+msgid ""
+"You can delete a scene by using the *Delete datablock* button (|deleteview-"
+"button|) from the scene selector option (see *Screen and Scene selectors*)."
+msgstr ""

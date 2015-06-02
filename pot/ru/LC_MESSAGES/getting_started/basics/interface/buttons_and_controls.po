@@ -1,0 +1,416 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender Reference Manual 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-02 16:02+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:4
+msgid "Buttons and Controls"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:6
+msgid ""
+"Buttons and other controls can be found in almost every :doc:`Window "
+"</editors/index>` of the Blender interface. The different types of controls "
+"are described below."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:12
+msgid "Operation Buttons"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:17
+msgid "Operation button"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:20
+msgid ""
+"These are buttons that perform an operation when clicked with :kbd:`LMB`. "
+"They can be identified by their gray color in the default color scheme."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:25
+msgid "Toggle Buttons"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:30
+msgid "Toggle buttons"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:33
+msgid ""
+"Toggle buttons are typically displayed as check boxes. Clicking this type of"
+" button will toggle a state but will not perform any operation."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:36
+msgid ""
+"To change many toggle buttons at once, you can :kbd:`LMB` drag over multiple"
+" buttons, This works for check-boxes, toggles in the outliner and layer "
+"buttons."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:41
+msgid ""
+"For layer buttons (a type of toggle button) it is often useful to hold "
+":kbd:`Shift` at the same time, to set or clear many layers at once."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:45
+msgid "Radio Buttons"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:50
+msgid "Radio buttons"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:53
+msgid ""
+"Radio buttons are used to choose from a small selection of \"mutually "
+"exclusive\" options."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:57
+msgid "Number Buttons"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:62
+msgid "Number buttons"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:65
+msgid ""
+"Number buttons can be identified by their labels, which in most cases "
+"contains the name and a colon followed by a number. Number buttons can be "
+"edited in several ways:"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:70
+msgid "Incremental Steps"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:71
+msgid ""
+"To change the value in steps, click :kbd:`LMB` on the small triangles on the"
+" sides of the button."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:72
+msgid "Dragging"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:73
+msgid ""
+"To change the value in a wider range, hold down :kbd:`LMB` and drag the "
+"mouse to the left or right."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:81
+msgid "Text Input"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:75
+msgid "Press :kbd:`LMB` or :kbd:`Return` to edit the value as a text field."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:77
+msgid ""
+"When entering values by hand, this button works like any other text button."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:79
+msgid "Press :kbd:`Return` to apply the change."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:80
+msgid "Press :kbd:`Esc` will cancel the value."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:84
+msgid "Expressions"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:86
+msgid ""
+"You can also enter expressions such as ``3*2`` instead of ``6``. or "
+"``5/10+3``. Even constants like ``pi`` (3.142) or functions like ``sqrt(2)``"
+" (square root of 2) may be used."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:90
+msgid ""
+"*These expressions are evaluated by Python; for all available math "
+"expressions see:* `math module reference "
+"<http://docs.python.org/py3k/library/math.html>`__"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:95
+msgid "Units"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:97
+msgid ""
+"As well as expressions, you can mix units with numbers; for this to work, "
+"units need to be set in the scene settings (Metric or Imperial)."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:100
+msgid "Examples of valid units include:"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:102
+msgid "``1cm``"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:103
+msgid "``1m 3mm``"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:104
+msgid "``1m, 3mm``"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:105
+msgid "``2ft``"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:106
+msgid "``3ft/0.5km``"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:107
+msgid "``2.2mm + 5' / 3\" - 2yards``"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:109
+msgid ""
+"*Note that the commas are optional. Also notice how you can mix between "
+"metric and imperial even though the display can only show one at a time.*"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:114
+msgid "Menu Buttons"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:119
+msgid "Datablock link buttons"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:122
+msgid ""
+"Use the menu buttons to work with items on dynamically created lists. Menu "
+"buttons are principally used to link DataBlocks to each other. DataBlocks "
+"are items like Meshes, Objects, Materials, Textures, and so on."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:130
+msgid "Datablock link menu with search"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:133
+msgid ""
+"The first button (with an icon of the DataBlock type) opens up a menu to "
+"select an item by clicking :kbd:`LMB`."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:135
+msgid ""
+"The second button displays the name of the linked DataBlock and lets you "
+"edit it after clicking :kbd:`LMB`."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:136
+msgid "The \"+\" button duplicates the current DataBlock and applies it."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:137
+msgid "The \"X\" button clears the link."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:139
+msgid ""
+"Sometimes there is a list of applied DataBlocks (such as a list of materials"
+" used on the object). See *DataBlock link buttons* above."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:143
+msgid "To select a datablock, click :kbd:`LMB` on it."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:144
+msgid ""
+"To add a new section (e.g. material, or particle system), click :kbd:`LMB` "
+"on the \"+\" button to the right of the list."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:146
+msgid ""
+"To remove a section, click :kbd:`LMB` on the \"-\" to the right of the list."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:149
+msgid ""
+"Another type of a Menu button block will show a static list with a range of "
+"options. For example, the Add Modifier button will produce a menu with all "
+"of the available modifiers."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:156
+msgid "Modifier options"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:159
+msgid "Unlinked objects"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:161
+msgid ""
+"Unlinked data is *not* **lost until you quit Blender**. This is a powerful "
+"Undo feature. If you delete an object the material assigned to it becomes "
+"unlinked, but is still there! You just have to re-link it to another object "
+"or supply it with a \"Fake User\" (i.e. by clicking that option in the "
+"corresponding DataBlock in the datablock-view of the Outliner)."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:166
+msgid ":doc:`Read more about Fake User </data_system/introduction>`"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:170
+msgid "Common Shortcuts"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:172
+msgid "There are shortcuts shared between many button types."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:197
+msgid "While Hovering"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:176
+msgid "*When the cursor is held over a button*"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:178
+msgid ":kbd:`Ctrl-C` - copy the value of the button."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:182
+msgid ""
+"Pressing :kbd:`Ctrl-C` over any `Operation Buttons`_ copies their Python "
+"command into the clipboard which can be used in the Python console or in the"
+" text editor when writing scripts."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:186
+msgid ":kbd:`Ctrl-V` - paste the value of the button."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:187
+msgid ":kbd:`RMB` - open the context menu."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:188
+msgid ":kbd:`Backspace` - set the value to zero."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:189
+msgid ":kbd:`Minus` - negate number values (multiply by ``-1.0``)."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:190
+msgid ":kbd:`Ctrl-Wheel` - changes the value incremental steps."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:192
+msgid ""
+"This also works for dropdowns and checkboxes buttons, it will cycle values."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:194
+msgid "Animation:"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:196
+msgid ":kbd:`I` - insert a keyframe."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:197
+msgid ":kbd:`D` - assign a driver."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:201
+msgid "While Dragging"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:200
+msgid ":kbd:`Ctrl` - while dragging snap the discrete steps."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:201
+msgid ":kbd:`Shift` - gives finer control over the value."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:213
+msgid "While Editing Text"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:204
+msgid ":kbd:`Home` - go to the start."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:205
+msgid ":kbd:`End` - go to the end."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:206
+msgid ":kbd:`Left`, :kbd:`Right` - move the cursor a single character."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:207
+msgid ":kbd:`Ctrl-Left`, :kbd:`Ctrl-Right` - move the cursor an entire word."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:208
+msgid ":kbd:`Backspace`, :kbd:`Delete` - delete characters."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:209
+msgid ":kbd:`Ctrl-Backspace`, :kbd:`Ctrl-Delete` - delete words."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:210
+msgid "Holding :kbd:`Shift` - while moving the cursor selects."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:211
+msgid ":kbd:`Ctrl-C` - copy the selected text."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:212
+msgid ":kbd:`Ctrl-V` - paste test at the cursor location."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:213
+msgid ":kbd:`Ctrl-A` - selects all text."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:219
+msgid "All Modes"
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:216
+msgid ":kbd:`Esc`, :kbd:`RMB` - cancels."
+msgstr ""
+
+#: ..\..\manual\getting_started\basics\interface\buttons_and_controls.rst:217
+msgid ":kbd:`Return`, :kbd:`LMB` - confirms."
+msgstr ""

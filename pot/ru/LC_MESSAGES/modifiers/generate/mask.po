@@ -1,0 +1,85 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender Reference Manual 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-02 16:02+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ..\..\manual\modifiers\generate\mask.rst:4
+msgid "Mask Modifier"
+msgstr ""
+
+#: ..\..\manual\modifiers\generate\mask.rst:6
+msgid ""
+"The Mask modifier allows vertices of an object to be hidden dynamically "
+"based on vertex groups."
+msgstr ""
+
+#: ..\..\manual\modifiers\generate\mask.rst:10
+msgid "Options"
+msgstr ""
+
+#: ..\..\manual\modifiers\generate\mask.rst:36
+msgid "Mode"
+msgstr ""
+
+#: ..\..\manual\modifiers\generate\mask.rst:13
+msgid ""
+"The Mask modifier can hide parts of a mesh based on two different modes, "
+"selectable from this drop-down list."
+msgstr ""
+
+#: ..\..\manual\modifiers\generate\mask.rst:25
+#: ..\..\manual\modifiers\generate\mask.rst:20
+msgid "Vertex Group"
+msgstr ""
+
+#: ..\..\manual\modifiers\generate\mask.rst:23
+msgid ""
+"When the *Vertex Group* option is selected, all vertices belonging to the "
+"chosen Vertex Group will be visible, and all vertices which do not belong to"
+" that group will be hidden."
+msgstr ""
+
+#: ..\..\manual\modifiers\generate\mask.rst:36
+#: ..\..\manual\modifiers\generate\mask.rst:31
+msgid "Armature"
+msgstr ""
+
+#: ..\..\manual\modifiers\generate\mask.rst:34
+msgid ""
+"When in Pose Mode, vertices belonging to the Vertex Group associated with "
+"the active bone (same names) will be visible. Vertices not in that group "
+"will be hidden."
+msgstr ""
+
+#: ..\..\manual\modifiers\generate\mask.rst:41
+msgid "Inverse"
+msgstr ""
+
+#: ..\..\manual\modifiers\generate\mask.rst:39
+msgid ""
+"Normally, vertices belonging to the selected Vertex Group (or group "
+"associated with the active pose-bone) will be shown. The *Invert* toggle "
+"allows you to reverse this behavior, instead showing all vertices which do "
+"not belong to the Vertex Group, and hiding those that do."
+msgstr ""
+
+#: ..\..\manual\modifiers\generate\mask.rst:45
+msgid ""
+"The Mask modifier only takes into account whether a vertex is part of the "
+"group or not, the weight is not taken into account."
+msgstr ""
+
+#: ..\..\manual\modifiers\generate\mask.rst:48
+msgid ""
+"Thus, a vertex with a weight of ``0.0`` will be treated the same as a vertex"
+" with a weight of ``1.0``, because even though it has no weight it is still "
+"a member of that group."
+msgstr ""

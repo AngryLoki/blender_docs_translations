@@ -1,0 +1,162 @@
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender Reference Manual 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-02 16:02+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ..\..\manual\troubleshooting\3d_view.rst:4
+msgid "Troubleshooting the 3D View"
+msgstr ""
+
+#: ..\..\manual\troubleshooting\3d_view.rst:6
+msgid "TODO"
+msgstr ""
+
+#: ..\..\manual\troubleshooting\3d_view.rst:9
+msgid "See: https://developer.blender.org/T43810"
+msgstr ""
+
+#: ..\..\manual\troubleshooting\3d_view.rst:13
+msgid "Drawing"
+msgstr ""
+
+#: ..\..\manual\troubleshooting\3d_view.rst:17
+msgid "Depth Buffer Glitches"
+msgstr ""
+
+#: ..\..\manual\troubleshooting\3d_view.rst:19
+msgid "TODO, see: http://blender.stackexchange.com/questions/1385"
+msgstr ""
+
+#: ..\..\manual\troubleshooting\3d_view.rst:23
+msgid "Performance"
+msgstr ""
+
+#: ..\..\manual\troubleshooting\3d_view.rst:27
+msgid "Slow Drawing"
+msgstr ""
+
+#: ..\..\manual\troubleshooting\3d_view.rst:29
+#: ..\..\manual\troubleshooting\3d_view.rst:80
+msgid "TODO."
+msgstr ""
+
+#: ..\..\manual\troubleshooting\3d_view.rst:33
+msgid "Slow Selection"
+msgstr ""
+
+#: ..\..\manual\troubleshooting\3d_view.rst:35
+msgid ""
+"Blender uses OpenGL drawing for selection, some graphics card drivers are "
+"slow at performing this operation *(since its not in common used for "
+"games)*."
+msgstr ""
+
+#: ..\..\manual\troubleshooting\3d_view.rst:38
+msgid "This becomes especially problematic on dense geometry."
+msgstr ""
+
+#: ..\..\manual\troubleshooting\3d_view.rst:40
+msgid "Possible Solutions:"
+msgstr ""
+
+#: ..\..\manual\troubleshooting\3d_view.rst:45
+msgid "OpenGL Occlusion Queries (User Preference)"
+msgstr ""
+
+#: ..\..\manual\troubleshooting\3d_view.rst:43
+msgid "See :menuselection:`User Preferences --> System --> Selection`"
+msgstr ""
+
+#: ..\..\manual\troubleshooting\3d_view.rst:45
+msgid ""
+"This option defaults *Automatic*, try setting this to *OpenGL Occlusion "
+"Queries*, since there is a significant performance difference under some "
+"configurations."
+msgstr ""
+
+#: ..\..\manual\troubleshooting\3d_view.rst:49
+msgid "OpenGL :term:`Virtex Buffer Objects <VBO>`"
+msgstr ""
+
+#: ..\..\manual\troubleshooting\3d_view.rst:48
+msgid "See :menuselection:`User Preferences --> System --> VBOs`"
+msgstr ""
+
+#: ..\..\manual\troubleshooting\3d_view.rst:50
+msgid "This uses a more optimal drawing method which may speed up selection."
+msgstr ""
+
+#: ..\..\manual\troubleshooting\3d_view.rst:53
+msgid "Upgrade OpenGL Drivers"
+msgstr ""
+
+#: ..\..\manual\troubleshooting\3d_view.rst:52
+msgid "In some cases slow selection is resolved by using updated drivers."
+msgstr ""
+
+#: ..\..\manual\troubleshooting\3d_view.rst:54
+msgid "*It's generally good to use recent drivers when using 3D software.*"
+msgstr ""
+
+#: ..\..\manual\troubleshooting\3d_view.rst:56
+msgid "Select Centers (Workaround)"
+msgstr ""
+
+#: ..\..\manual\troubleshooting\3d_view.rst:56
+msgid ""
+"In *Object Mode*, holding :kbd:`Ctrl` while selecting uses the object center"
+" point. While this can be useful on its own, its has the side-effect of not "
+"relying on OpenGL selection."
+msgstr ""
+
+#: ..\..\manual\troubleshooting\3d_view.rst:59
+msgid "Change Draw Modes (Workaround)"
+msgstr ""
+
+#: ..\..\manual\troubleshooting\3d_view.rst:59
+msgid ""
+"Using *Wireframe* or even *Bounding Box* draw modes can used to more quickly"
+" select different objects."
+msgstr ""
+
+#: ..\..\manual\troubleshooting\3d_view.rst:63
+msgid ""
+"Obviously the workarounds listed here aren't long term solutions, but its "
+"handy to know if you're stuck using a system with poor OpenGL support."
+msgstr ""
+
+#: ..\..\manual\troubleshooting\3d_view.rst:66
+msgid ""
+"Ultimately, if none of these options work out it may be worth upgrading your"
+" hardware."
+msgstr ""
+
+#: ..\..\manual\troubleshooting\3d_view.rst:71
+msgid "Navigation"
+msgstr ""
+
+#: ..\..\manual\troubleshooting\3d_view.rst:75
+msgid "Lost in Space"
+msgstr ""
+
+#: ..\..\manual\troubleshooting\3d_view.rst:77
+msgid ""
+"When navigating your scene, you may accidentally navigate away from your "
+"scene and find yourself with a blank view-port"
+msgstr ""
+
+#: ..\..\manual\troubleshooting\3d_view.rst:84
+msgid "Invisible Limit Zooming In"
+msgstr ""
+
+#: ..\..\manual\troubleshooting\3d_view.rst:86
+msgid "TODO, see: http://blender.stackexchange.com/questions/644"
+msgstr ""
